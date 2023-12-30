@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+/*Variaveis*/
+:root{
+    --CorFundoRe:#1c1e1b;
+    --CorPrimaria:#508e5b;
+    --CorFundoPg:#000000;
+    --CorSecundaria:#3f6744;
+}
+
+/*QUEM SÃO NOSSOS PATROCINADORES*/
+.titulo{width: 50%;
+margin-top: 2%;
+margin-left: 25%}
+
+/*PÁG*/
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--CorFundoPg);
+}
+
+/*Botões Menu*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.menu_logo {
+    width: 20%;
+    height: 20%;
+}
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    border-bottom:#26ff00 1px solid;
+    border-top:#26ff00 1px solid;
+
+    gap: 0px;
+    margin-bottom: 4%;
+
+}
+
+.menu_link1 {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: 'Gabarito', sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.menu_link1:hover {
+    text-decoration: none;
+    color: rgb(119, 255, 0);
+    transition: ease-in 0.2s;
+    font-size:20px;
+    font-family: 'Gabarito', sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/*Retângulo*/
+
+.rectangle {
+    width: 100%;
+    height: 100%;
+    background: var(--CorFundoRe);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+   }
+
+
+   .rectangle3 {
+    width: 100%;
+    height: 100%;
+        background: var(--CorFundoRe);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+   }
+
+
+/*Logos fileira*/
+
+.logoPat{
+    width: 10%;
+    aspect-ratio: 6/3;
+    object-fit: contain;
+    padding:0.5%;
+
+}
+
+.NomePatrocinadorbes:hover {
+    transition: ease-in 0.4s;
+    color:white;
+}
+.NomePatrocinador:hover {
+    transition: ease-in 0.4s;
+    color:white;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+  }
+/*Formatação Java*/
+
+.imagembes{
+    width: 60%;
+    height:33%;
+}
+.NomePatrocinadorbes{
+    font-family: 'Chakra Petch', sans-serif;
+    color:#00df41;
+    font-size:35px;
+}
+.SobrePatrocinadorbes{
+    color:white;
+    margin-top:2%;
+    font-size:25px;
+    font-family: 'Gabarito', sans-serif;
+    margin-bottom: 9%;
+    max-width: 110%;
+
+}
+
+.imagem{
+    width: 30%;
+    height:10%;
+    margin-bottom:4%;
+}
+.NomePatrocinador{
+    font-family: 'Chakra Petch', sans-serif;
+    color:#00df41;
+    font-size:30px;
+    margin-top: 2%;
+}
+
+.SobrePatrocinador{
+    color:white;
+    margin-top:4%;
+    font-size:20px;
+    font-family: 'Gabarito', sans-serif;
+    max-width: 100%;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.containermenorbes{
+    margin-top:1.5%;
+    width:60%;
+}
+
+.containermenor{
+    margin-top:1.5%;
+    width:40%;
+}
+
+/*Novos Patrocinadores*/
+.NovosPatrocinadores{
+    font-family: 'Rubintek', sans-serif;
+    color:#ffffff;
+    font-size:35px;
+    padding:0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.containerpat{
+    padding:10px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--CorFundoPg);
+    margin-top:0.5%;
+}
+.textonovospat{
+    color:rgb(56, 198, 0);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size:22px;
+    text-decoration: underline;
+}
+
+.containerpatmenor{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: left;
+    background-color:var(--CorFundoPg);
+    }
+h1{
+    color:#26ff00;
+    font-size:20px;
+
+}
+    
+.cbenef{
+    display: flex;
+    flex-direction:wrap;
+    justify-content: space-evenly;      
+    background-color:#1b1c1a;
+    width: 100%;
+    align-items:left;
+    gap:10px
+}
+.dinossauro{
+    width: 550px;
+    height:300px;
+    margin-bottom: 2%;;
+}
+
+.textopatrocinador{
+    color:white;
+    font-family: "gabarito", arial;
+    font-size:22px;
+    margin-top:80px;
+    margin-left:0%;   
+    max-width:50%;
+    justify-content: left;
+    align-items: left  ;
+}
+.textopatrocinador1{
+    color:white;
+    font-family: "gabarito", arial;
+    font-size:22px;
+    margin-top:80px;
+    margin-left:0%;   
+    justify-content: left;
+    align-items: left  ;
+}
+.inputquadrado{
+    background-color: #000000;
+    color:white;
+    font-family: "gabarito", arial;
+    font-size: 22px;
+    border:gray 1px solid;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 16px;
+}
+
+/*Botao*/
+
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    margin-left:2px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #26ff00, #229000, #00771e, #48ff00, #2cbb00, #00800f, #007319, #37ff00, #37ff00);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.glow-on-hover:active {
+    color: #000000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.logodino{
+    width:850px;
+    height: 300px;
+    margin-right: 55px;
+}
